@@ -37,6 +37,10 @@ dialog {
     margin-right: auto;
 }
 
+.container > img {
+    width: 100%;
+}
+
 .flex {
     margin-bottom: 32px;
     display: flex;
