@@ -110,4 +110,12 @@ form[method="dialog"] > button {
         margin: 0;
         max-width: 100%;
     }
+
+    .flex > div:first-child {
+        max-width: 100%;
+    }
+
+    .flex > div:last-child {
+        max-width: 100%;
+    }
 }
