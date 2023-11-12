@@ -37,8 +37,12 @@ dialog {
     margin-right: auto;
 }
 
-.container > img {
+.hero-banner {
     width: 100%;
+}
+
+.hero-banner img {
+    height: 100%;
 }
 
 .flex {
@@ -51,6 +55,7 @@ dialog {
 .flex > div {
     border-radius: 8px;
     margin: 0 32px;
+    max-width: calc(33.3333333% - 32px)
 }
 
 .flex > div:hover {
@@ -60,14 +65,17 @@ dialog {
 
 .flex > div:first-child {
     margin-left: 0;
+    max-width: calc(33.3333333% - 16px)
 }
 
 .flex > div:last-child {
     margin-right: 0;
+    max-width: calc(33.3333333% - 16px)
 }
 
 .flex img {
-    width: 100%;
+    width:100%;
+    height:auto;
 }
 
 button.dialog-button {
@@ -100,5 +108,6 @@ form[method="dialog"] > button {
 
     .flex > div {
         margin: 0;
+        max-width: 100%;
     }
 }
